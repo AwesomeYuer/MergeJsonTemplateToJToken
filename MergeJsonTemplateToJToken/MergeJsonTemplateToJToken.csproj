@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="JsonHelper\JsonHelper.00.cs" />
+    <Compile Remove="JsonHelper\JsonHelper.01.cs" />
+    <Compile Remove="JsonHelper\JsonHelper.02.cs" />
+    <Compile Remove="JsonHelper\JsonHelper.03.cs" />
+    <Compile Remove="JsonHelper\JsonHelper.04.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+</Project>
